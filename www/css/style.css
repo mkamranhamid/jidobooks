@@ -1,0 +1,44 @@
+/* Empty. Add your own CSS if you like */
+/* Empty. Add your own CSS if you like */
+.tableHeader {
+  text-align:center;
+  background-color:#444;
+  border:thin #ffd700 solid;
+  color: #ffd700;
+}
+.tableBody {
+  text-align:center;
+  background-color:#444;
+  border:thin #fff solid;
+  color: #fff;
+}
+.loginImg {
+  background: url(../img/background.png) no-repeat center center fixed;
+  /*position: relative;*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/*.scroll-content{
+  background: url(https://placehold.it/1000x1000) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+.item.item-input {
+  background-color: transparent;
+}
+.customBorderRemoval{
+  border: none;
+}
+.addBorderBottom {
+  border-bottom: 1px solid;
+  background-color: transparent;
+  color: #fff
+}
+div.custom-active.active{
+  background-color: #ffd700;
+  color: #fff;
+}

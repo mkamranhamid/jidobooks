@@ -1,0 +1,22 @@
+<ion-view view-title="Signin" class="loginImg" hide-nav-bar="true">
+  <ion-content class="padding loginImg" >
+    <!--<div class="list list-inset">-->
+    <img src="../img/jidobooks_yellow.png" alt="" width="150em" style="padding-top: 16%;display: block;margin: 0 auto;"/>
+      <form ng-submit="login(user)">
+        <label class="item item-input item-stacked-label customBorderRemoval">
+          <span class="input-label" style="color: #fff">Email</span>
+          <input class="addBorderBottom" style="background-color: transparent;color: #fff;border-bottom: 2px solid;" ng-model="user.name" type="text">
+        </label>
+        <label class="item item-input item-stacked-label customBorderRemoval">
+          <span class="input-label"  style="color: #fff">Password</span>
+          <input class="addBorderBottom" style="background-color: transparent;color: #fff;border-bottom: 2px solid;" ng-model="user.password" type="password" >
+        </label>
+        <div class="row">
+          <div class="col text-center">
+            <input class="button button-energized" style="background-color: #fdd137;" type="submit" value="LOGIN"/>
+          </div>
+        </div>
+      </form>
+    <!--</div>-->
+  </ion-content>
+</ion-view>

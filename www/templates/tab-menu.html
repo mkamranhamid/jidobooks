@@ -1,0 +1,27 @@
+
+<ion-view view-title="Hello {{username}}">
+  <ion-content>
+     <div class="list card">
+       <div class="item item-image">
+         <img ng-src="{{cameraImage}}" alt=""/>
+       </div>
+     </div>
+    <div class=" row-center">
+      <div class="col">
+        <button class="button button-large button-outline button-energized blackBTN" ng-click="takePhoto()" style="background-color: #444;">
+          Take Photo
+        </button>
+      </div>
+      <div class="col">
+        <button class="button button-large button-outline button-energized blackBTN" ng-click="showReports()" style="background-color: #444;">
+          Financial Reports
+        </button>
+      </div>
+      <div class="col">
+        <button class="button button-large button-outline button-energized blackBTN" style="background-color: #444;">
+          Preferences
+        </button>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>
